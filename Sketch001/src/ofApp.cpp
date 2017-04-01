@@ -9,23 +9,27 @@ void ofApp::setup(){
         int randomX = ofRandom(0, ofGetWidth());
         int randomY = ofRandom(0, ofGetHeight());
         
-        ColorBall ball = ColorBall();
-        ball.setup(randomX, randomY, size);
-        colorBalls[i] = ball;
+        ofColor color;
+        color.r = ofRandom(0, 255);
+        color.g = ofRandom(0, 255);
+        color.b = ofRandom(0, 255);
+        
+        Circle c = Circle(randomX, randomY, size, color);
+        circles[i] = c;
     }
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     for (int i = 0; i < MaxBallCount; i++) {
-        colorBalls[i].update();
+        circles[i].update();
     }
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     for (int i = 0; i < MaxBallCount; i++) {
-        colorBalls[i].draw();
+        circles[i].draw();
     }
     image.grabScreen(0, 0, ofGetWidth(), ofGetHeight());
 }

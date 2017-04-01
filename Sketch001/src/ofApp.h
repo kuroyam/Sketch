@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ColorBall.hpp"
+#include "Circle.hpp"
 
 #define MaxBallCount 500
 
@@ -25,6 +25,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 	
     private:
-        ColorBall colorBalls[MaxBallCount];
+        Circle circles[MaxBallCount];
         ofImage image;
 };
