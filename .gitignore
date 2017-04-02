@@ -14,7 +14,7 @@ DerivedData/
 xcuserdata/
 
 ## openFrameworks
-*/bin/*.app
+*.app
 *.mov
 
 ## Other
