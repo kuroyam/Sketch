@@ -10,12 +10,10 @@ void ofApp::setup(){
         int randomY = ofRandom(0, ofGetHeight());
         
         ofColor color;
-        color.r = ofRandom(0, 255);
-        color.g = ofRandom(0, 255);
-        color.b = ofRandom(0, 255);
+        color.setHsb(ofRandom(0, 255), 255 * 0.3, 255 * 1.0);
         
-        Circle c = Circle(randomX, randomY, size, color);
-        circles[i] = c;
+        MoveCircle circle = MoveCircle(randomX, randomY, size, color);
+        circles[i] = circle;
     }
 }
 
