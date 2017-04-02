@@ -15,6 +15,7 @@ xcuserdata/
 
 ## openFrameworks
 */bin/*.app
+*.mov
 
 ## Other
 *.moved-aside

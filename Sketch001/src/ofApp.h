@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxVideoRecorder.h"
 #include "MoveCircle.hpp"
 
 #define MaxBallCount 500
@@ -24,7 +25,9 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 	
-    private:
-        MoveCircle circles[MaxBallCount];
-        ofImage image;
+private:
+    MoveCircle circles[MaxBallCount];
+    
+    ofxVideoRecorder videoRecorder;
+    
 };

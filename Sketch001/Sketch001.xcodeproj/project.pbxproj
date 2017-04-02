@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4998B2A21E900285007C6A60 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4998B2A01E900285007C6A60 /* Circle.cpp */; };
 		4998B2AD1E90F71C007C6A60 /* MoveCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4998B2AB1E90F71C007C6A60 /* MoveCircle.cpp */; };
+		4998B2D31E9127D6007C6A60 /* ofxVideoRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4998B2D11E912478007C6A60 /* ofxVideoRecorder.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
@@ -49,6 +50,17 @@
 		4998B2A51E9002E9007C6A60 /* IDrawable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IDrawable.hpp; sourceTree = "<group>"; };
 		4998B2AB1E90F71C007C6A60 /* MoveCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveCircle.cpp; sourceTree = "<group>"; };
 		4998B2AC1E90F71C007C6A60 /* MoveCircle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MoveCircle.hpp; sourceTree = "<group>"; };
+		4998B2C31E912478007C6A60 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4998B2C41E912478007C6A60 /* License.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
+		4998B2C51E912478007C6A60 /* ofxaddons_thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ofxaddons_thumbnail.png; sourceTree = "<group>"; };
+		4998B2C71E912478007C6A60 /* addons.make */ = {isa = PBXFileReference; lastKnownFileType = text; path = addons.make; sourceTree = "<group>"; };
+		4998B2CA1E912478007C6A60 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4998B2CC1E912478007C6A60 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4998B2CD1E912478007C6A60 /* ofApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofApp.cpp; sourceTree = "<group>"; };
+		4998B2CE1E912478007C6A60 /* ofApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofApp.h; sourceTree = "<group>"; };
+		4998B2CF1E912478007C6A60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4998B2D11E912478007C6A60 /* ofxVideoRecorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxVideoRecorder.cpp; sourceTree = "<group>"; };
+		4998B2D21E912478007C6A60 /* ofxVideoRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxVideoRecorder.h; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../of_v0.9.8_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* Sketch001Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch001Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
@@ -100,6 +112,65 @@
 			path = Shape;
 			sourceTree = "<group>";
 		};
+		4998B2C21E912478007C6A60 /* ofxVideoRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2C31E912478007C6A60 /* .gitignore */,
+				4998B2C41E912478007C6A60 /* License.md */,
+				4998B2C51E912478007C6A60 /* ofxaddons_thumbnail.png */,
+				4998B2C61E912478007C6A60 /* ofxVideoRecorderExample */,
+				4998B2CF1E912478007C6A60 /* README.md */,
+				4998B2D01E912478007C6A60 /* src */,
+			);
+			name = ofxVideoRecorder;
+			path = ../../of_v0.9.8_osx_release/addons/ofxVideoRecorder;
+			sourceTree = "<group>";
+		};
+		4998B2C61E912478007C6A60 /* ofxVideoRecorderExample */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2C71E912478007C6A60 /* addons.make */,
+				4998B2C81E912478007C6A60 /* bin */,
+				4998B2CB1E912478007C6A60 /* src */,
+			);
+			path = ofxVideoRecorderExample;
+			sourceTree = "<group>";
+		};
+		4998B2C81E912478007C6A60 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2C91E912478007C6A60 /* data */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		4998B2C91E912478007C6A60 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2CA1E912478007C6A60 /* .gitkeep */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		4998B2CB1E912478007C6A60 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2CC1E912478007C6A60 /* main.cpp */,
+				4998B2CD1E912478007C6A60 /* ofApp.cpp */,
+				4998B2CE1E912478007C6A60 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		4998B2D01E912478007C6A60 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4998B2D11E912478007C6A60 /* ofxVideoRecorder.cpp */,
+				4998B2D21E912478007C6A60 /* ofxVideoRecorder.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +181,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				4998B2C21E912478007C6A60 /* ofxVideoRecorder */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -243,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4998B2AD1E90F71C007C6A60 /* MoveCircle.cpp in Sources */,
+				4998B2D31E9127D6007C6A60 /* ofxVideoRecorder.cpp in Sources */,
 				4998B2A21E900285007C6A60 /* Circle.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
@@ -332,7 +405,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					"$(SRCROOT)/../addons/ofxGifEncoder/src",
+					"$(OF_PATH)/addons/ofxVideoRecorder/src",
+				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
@@ -356,7 +433,11 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../of_v0.9.8_osx_release/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
-				HEADER_SEARCH_PATHS = "$(OF_CORE_HEADERS)";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					"$(SRCROOT)/../addons/ofxGifEncoder/src",
+					"$(OF_PATH)/addons/ofxVideoRecorder/src",
+				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
