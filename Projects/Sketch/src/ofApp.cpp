@@ -1,5 +1,4 @@
 #include "ofApp.h"
-#include "TestScene.hpp"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -14,6 +13,7 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     scene.draw();
+    image.grabScreen(0, 0, ofGetWidth(), ofGetHeight());
 }
 
 //--------------------------------------------------------------
@@ -23,7 +23,9 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-
+    if (key == 'r') {
+        image.save(ofGetTimestampString()+"sketch.png");
+    }
 }
 
 //--------------------------------------------------------------
