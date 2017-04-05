@@ -2,17 +2,17 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    scene.setup();
+    sketch.setup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    scene.update();
+    sketch.update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    scene.draw();
+    sketch.draw();
     image.grabScreen(0, 0, ofGetWidth(), ofGetHeight());
 }
 

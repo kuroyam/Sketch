@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "Scene170404.hpp"
+#include "Sketch170405.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -23,7 +23,7 @@ public:
     void gotMessage(ofMessage msg);
 		
 private:
-    Scene170404 scene;
+    Sketch170405 sketch;
     
     ofImage image;
     
