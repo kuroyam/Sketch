@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494082551E9905F600634204 /* Sketch170408.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082531E9905F600634204 /* Sketch170408.cpp */; };
 		49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE181A1E928EF6008C2F68 /* TestScene.cpp */; };
 		49FE18251E92941C008C2F68 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE18231E92941C008C2F68 /* Polygon.cpp */; };
 		49FE182D1E93C275008C2F68 /* Scene170404.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE182B1E93C275008C2F68 /* Scene170404.cpp */; };
@@ -50,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		24D17BB8F9CD95EB832B7AB0 /* ofxVideoRecorder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxVideoRecorder.cpp; path = ../../../of_v0.9.8_osx_release/addons/ofxVideoRecorder/src/ofxVideoRecorder.cpp; sourceTree = SOURCE_ROOT; };
+		494082531E9905F600634204 /* Sketch170408.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170408.cpp; sourceTree = "<group>"; };
+		494082541E9905F600634204 /* Sketch170408.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170408.hpp; sourceTree = "<group>"; };
 		49FE181A1E928EF6008C2F68 /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestScene.cpp; sourceTree = "<group>"; };
 		49FE181B1E928EF6008C2F68 /* TestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestScene.hpp; sourceTree = "<group>"; };
 		49FE18231E92941C008C2F68 /* Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				49FE18311E9662C4008C2F68 /* Sketch170406.cpp */,
 				49FE18351E97B8B1008C2F68 /* Sketch170407.hpp */,
 				49FE18341E97B8B1008C2F68 /* Sketch170407.cpp */,
+				494082541E9905F600634204 /* Sketch170408.hpp */,
+				494082531E9905F600634204 /* Sketch170408.cpp */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */,
+				494082551E9905F600634204 /* Sketch170408.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				49FE18301E94FFD2008C2F68 /* Sketch170405.cpp in Sources */,
 				49FE182D1E93C275008C2F68 /* Scene170404.cpp in Sources */,
