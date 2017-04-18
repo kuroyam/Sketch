@@ -11,14 +11,9 @@
 Ink::Ink(ofPoint _position) {
     position = _position;
     color.setHsb(ofRandom(255), 255, 255);
-    radius = 30;
+    radius = 60;
     
-    for (int deg = 0; deg <= 360; deg += 10) {
-        float rad = ofDegToRad(deg);
-        float x = position.x + (radius * cos(rad)) + ofRandom(-10, 10);
-        float y = position.y + (radius * sin(rad)) + ofRandom(-10, 10);
-        vertexes.push_back(ofPoint(x, y));
-    }
+    blobs.push_back(new Blob(position, color, radius));
 }
 
 void Ink::setup() {
@@ -26,20 +21,17 @@ void Ink::setup() {
 }
 
 void Ink::update() {
+    auto last = blobs.at(blobs.size() - 1);
     
+    if (last->position.y > ofGetHeight() + radius / 2) {
+        return;
+    }
+    
+    blobs.push_back(new Blob(last->position + ofPoint(0, 5), color, radius));
 }
 
 void Ink::draw() {
-    ofPushMatrix();
-    
-    ofPath path;
-    for_each(vertexes.begin(), vertexes.end(), [&](ofPoint& vertex){
-        path.curveTo(vertex);
+    for_each(blobs.begin(), blobs.end(), [](Blob* blob){
+        blob->draw();
     });
-    path.close();
-    
-    path.setFillColor(color);
-    path.draw();
-    
-    ofPopMatrix();
 }

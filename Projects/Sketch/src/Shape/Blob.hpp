@@ -15,14 +15,17 @@ class Blob {
     
 public:
     Blob(ofPoint _position);
+    Blob(ofPoint _position, ofColor _color, float _radius);
     void setup();
     void update();
     void draw();
     
-private:
     ofPoint position;
     ofColor color;
-    float radius;
+    float   radius;
+    
+private:
+    
     vector<ofPoint> vertexes;
     
 };

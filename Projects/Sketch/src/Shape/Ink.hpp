@@ -10,6 +10,7 @@
 #define Ink_hpp
 
 #include "ofMain.h"
+#include "Blob.hpp"
 
 class Ink {
     
@@ -23,7 +24,7 @@ private:
     ofPoint position;
     ofColor color;
     float radius;
-    vector<ofPoint> vertexes;
+    vector<Blob*> blobs;
     
 };
 

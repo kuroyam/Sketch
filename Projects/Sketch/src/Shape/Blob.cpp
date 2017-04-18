@@ -21,6 +21,20 @@ Blob::Blob(ofPoint _position) {
     }
 }
 
+Blob::Blob(ofPoint _position, ofColor _color, float _radius) {
+    position = _position;
+    color    = _color;
+    radius   = _radius;
+    
+    for (int deg = 0; deg <= 360; deg += 10) {
+        float rad = ofDegToRad(deg);
+        float x = position.x + (radius * cos(rad)) + ofRandom(-10, 10);
+        float y = position.y + (radius * sin(rad)) + ofRandom(-10, 10);
+        vertexes.push_back(ofPoint(x, y));
+    }
+}
+
+
 void Blob::setup() {
     
 }
