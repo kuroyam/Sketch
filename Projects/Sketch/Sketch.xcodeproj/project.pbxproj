@@ -20,6 +20,7 @@
 		494082761EA4E5CB00634204 /* Sketch170417.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082741EA4E5CB00634204 /* Sketch170417.cpp */; };
 		494082791EA4E73900634204 /* Ink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082771EA4E73800634204 /* Ink.cpp */; };
 		4940827C1EA63CD000634204 /* Sketch170418.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4940827A1EA63CD000634204 /* Sketch170418.cpp */; };
+		4940827F1EA7A22200634204 /* Sketch170419.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4940827D1EA7A22200634204 /* Sketch170419.cpp */; };
 		49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE181A1E928EF6008C2F68 /* TestScene.cpp */; };
 		49FE18251E92941C008C2F68 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE18231E92941C008C2F68 /* Polygon.cpp */; };
 		49FE182D1E93C275008C2F68 /* Scene170404.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE182B1E93C275008C2F68 /* Scene170404.cpp */; };
@@ -89,6 +90,8 @@
 		494082781EA4E73800634204 /* Ink.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ink.hpp; sourceTree = "<group>"; };
 		4940827A1EA63CD000634204 /* Sketch170418.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170418.cpp; sourceTree = "<group>"; };
 		4940827B1EA63CD000634204 /* Sketch170418.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170418.hpp; sourceTree = "<group>"; };
+		4940827D1EA7A22200634204 /* Sketch170419.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170419.cpp; sourceTree = "<group>"; };
+		4940827E1EA7A22200634204 /* Sketch170419.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170419.hpp; sourceTree = "<group>"; };
 		49FE181A1E928EF6008C2F68 /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestScene.cpp; sourceTree = "<group>"; };
 		49FE181B1E928EF6008C2F68 /* TestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestScene.hpp; sourceTree = "<group>"; };
 		49FE18231E92941C008C2F68 /* Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				494082741EA4E5CB00634204 /* Sketch170417.cpp */,
 				4940827B1EA63CD000634204 /* Sketch170418.hpp */,
 				4940827A1EA63CD000634204 /* Sketch170418.cpp */,
+				4940827E1EA7A22200634204 /* Sketch170419.hpp */,
+				4940827D1EA7A22200634204 /* Sketch170419.cpp */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */,
+				4940827F1EA7A22200634204 /* Sketch170419.cpp in Sources */,
 				494082551E9905F600634204 /* Sketch170408.cpp in Sources */,
 				4940827C1EA63CD000634204 /* Sketch170418.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
