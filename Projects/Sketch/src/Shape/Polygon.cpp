@@ -37,7 +37,8 @@ void Sketch::Polygon::draw() {
     for (int i = 0, l = 360; i < l; i += l / vertexCount) {
         path.lineTo(radius * cos(ofDegToRad(i)), radius * sin(ofDegToRad(i)));
     }
-    
+    path.setStrokeWidth(1);
+    path.setFilled(false);
     path.draw();
     ofPopMatrix();
 }
