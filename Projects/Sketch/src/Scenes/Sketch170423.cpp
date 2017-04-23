@@ -9,7 +9,7 @@
 #include "Sketch170423.hpp"
 
 void Sketch170423::setup() {
-    ofSetWindowShape(800, 800);
+    ofSetWindowShape(500, 500);
     ofBackground(255);
     
     float width  = 20;
