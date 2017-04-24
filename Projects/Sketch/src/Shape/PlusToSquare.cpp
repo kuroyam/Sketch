@@ -19,6 +19,7 @@ PlusToSquare::PlusToSquare(ofPoint _p, float _w, float _h) {
     color = inbetween;
     
     inset = 2.0;
+    degree = ofRandom(0, 360);
 }
 
 void PlusToSquare::setup() {
@@ -26,7 +27,7 @@ void PlusToSquare::setup() {
 }
 
 void PlusToSquare::update() {
-    
+    degree += 1;
 }
 
 void PlusToSquare::draw() {
@@ -40,6 +41,7 @@ void PlusToSquare::draw() {
     path1.lineTo(right, position.y);
     path1.setStrokeWidth(1);
     path1.setStrokeColor(color);
+    path1.rotate(degree, ofVec3f(0, 1, 0));
     path1.draw();
     
     ofPath path2;
@@ -47,5 +49,6 @@ void PlusToSquare::draw() {
     path2.lineTo(position.x, bottom);
     path2.setStrokeWidth(1);
     path2.setStrokeColor(color);
+    path2.rotate(degree, ofVec3f(0, 1, 0));
     path2.draw();
 }

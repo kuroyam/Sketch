@@ -27,6 +27,8 @@ private:
     
     ofColor color;
     float   inset;
+    float   degree;
+    
 };
 
 #endif /* PlusToSquare_hpp */
