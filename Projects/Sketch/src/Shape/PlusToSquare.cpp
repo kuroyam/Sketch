@@ -32,7 +32,7 @@ PlusToSquare::PlusToSquare(float _x, float _y, float _z, float _w, float _h) {
     ofColor inbetween = aqua.getLerped(purple, ofRandom(1.0));
     color = inbetween;
     
-    inset = 2.0;
+    inset = 8.0;
     degree = ofRandom(0, 360);
 }
 
@@ -41,7 +41,7 @@ void PlusToSquare::setup() {
 }
 
 void PlusToSquare::update() {
-    degree += 1;
+//    position.z -= 1;
 }
 
 void PlusToSquare::draw() {
@@ -55,7 +55,7 @@ void PlusToSquare::draw() {
     path1.lineTo(right, position.y, position.z);
     path1.setStrokeWidth(1);
     path1.setStrokeColor(color);
-//    path1.rotate(degree, ofVec3f(0, 1, 0));
+//    path1.rotate(45, ofVec3f(0, 1, 0));
     path1.draw();
     
     ofPath path2;
@@ -63,6 +63,6 @@ void PlusToSquare::draw() {
     path2.lineTo(position.x, bottom, position.z);
     path2.setStrokeWidth(1);
     path2.setStrokeColor(color);
-//    path2.rotate(degree, ofVec3f(0, 1, 0));
+//    path2.rotate(45, ofVec3f(0, 1, 0));
     path2.draw();
 }
