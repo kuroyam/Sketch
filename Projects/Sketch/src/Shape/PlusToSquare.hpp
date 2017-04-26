@@ -15,13 +15,14 @@ class PlusToSquare {
     
 public:
     PlusToSquare(ofPoint _p, float _w, float _h);
+    PlusToSquare(float _x, float _y, float _z, float _w, float _h);
     
     void setup();
     void update();
     void draw();
     
 private:
-    ofPoint position;
+    ofVec3f position;
     float   width;
     float   height;
     

@@ -27,6 +27,7 @@
 		4940828C1EAC47BF00634204 /* Sketch170423.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4940828A1EAC47BF00634204 /* Sketch170423.cpp */; };
 		4940828F1EAC489600634204 /* PlusToSquare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4940828D1EAC489600634204 /* PlusToSquare.cpp */; };
 		494082921EAE305500634204 /* Sketch170424.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082901EAE305500634204 /* Sketch170424.cpp */; };
+		494C399C1EB0B6AF006DAE87 /* Sketch170425.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494C399A1EB0B6AF006DAE87 /* Sketch170425.cpp */; };
 		49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE181A1E928EF6008C2F68 /* TestScene.cpp */; };
 		49FE18251E92941C008C2F68 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE18231E92941C008C2F68 /* Polygon.cpp */; };
 		49FE182D1E93C275008C2F68 /* Scene170404.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE182B1E93C275008C2F68 /* Scene170404.cpp */; };
@@ -110,6 +111,8 @@
 		4940828E1EAC489600634204 /* PlusToSquare.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlusToSquare.hpp; sourceTree = "<group>"; };
 		494082901EAE305500634204 /* Sketch170424.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170424.cpp; sourceTree = "<group>"; };
 		494082911EAE305500634204 /* Sketch170424.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170424.hpp; sourceTree = "<group>"; };
+		494C399A1EB0B6AF006DAE87 /* Sketch170425.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170425.cpp; sourceTree = "<group>"; };
+		494C399B1EB0B6AF006DAE87 /* Sketch170425.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170425.hpp; sourceTree = "<group>"; };
 		49FE181A1E928EF6008C2F68 /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestScene.cpp; sourceTree = "<group>"; };
 		49FE181B1E928EF6008C2F68 /* TestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestScene.hpp; sourceTree = "<group>"; };
 		49FE18231E92941C008C2F68 /* Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				4940828A1EAC47BF00634204 /* Sketch170423.cpp */,
 				494082911EAE305500634204 /* Sketch170424.hpp */,
 				494082901EAE305500634204 /* Sketch170424.cpp */,
+				494C399B1EB0B6AF006DAE87 /* Sketch170425.hpp */,
+				494C399A1EB0B6AF006DAE87 /* Sketch170425.cpp */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -398,6 +403,7 @@
 				4940825B1E9BC7CC00634204 /* Sketch170410.cpp in Sources */,
 				494082641E9F9D1700634204 /* Sketch170413.cpp in Sources */,
 				5B21B509C3EC43CF67641315 /* ofxVideoRecorder.cpp in Sources */,
+				494C399C1EB0B6AF006DAE87 /* Sketch170425.cpp in Sources */,
 				494082921EAE305500634204 /* Sketch170424.cpp in Sources */,
 				49FE18361E97B8B1008C2F68 /* Sketch170407.cpp in Sources */,
 				494082581E99C5F600634204 /* Sketch170409.cpp in Sources */,
