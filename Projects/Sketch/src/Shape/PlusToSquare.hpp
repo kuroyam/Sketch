@@ -29,6 +29,7 @@ private:
     ofColor color;
     float   inset;
     float   degree;
+    float   count;
     
 };
 

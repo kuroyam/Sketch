@@ -32,8 +32,9 @@ PlusToSquare::PlusToSquare(float _x, float _y, float _z, float _w, float _h) {
     ofColor inbetween = aqua.getLerped(purple, ofRandom(1.0));
     color = inbetween;
     
-    inset = 8.0;
+    inset = 2.0;
     degree = ofRandom(0, 360);
+    count = 0;
 }
 
 void PlusToSquare::setup() {
@@ -41,7 +42,10 @@ void PlusToSquare::setup() {
 }
 
 void PlusToSquare::update() {
-//    position.z -= 1;
+    count += 1;
+    if (count == 100) {
+        count = 0;
+    }
 }
 
 void PlusToSquare::draw() {
@@ -50,19 +54,48 @@ void PlusToSquare::draw() {
     float top    = position.y - height / 2.0 + inset;
     float bottom = position.y + height / 2.0 - inset;
     
+    float x1;
+    float x2;
+    float y1;
+    float y2;
+    
+    if (count <= 50) {
+        x1 = ofMap(count, 0, 50, position.x, left);
+        x2 = ofMap(count, 0, 50, position.x, right);
+        y1 = ofMap(count, 0, 50, position.y, top);
+        y2 = ofMap(count, 0, 50, position.y, bottom);
+    } else {
+        x1 = ofMap(count, 51, 100, left,   position.x);
+        x2 = ofMap(count, 51, 100, right,  position.x);
+        y1 = ofMap(count, 51, 100, top,    position.y);
+        y2 = ofMap(count, 51, 100, bottom, position.y);
+    }
+    
     ofPath path1;
-    path1.lineTo(left,  position.y, position.z);
-    path1.lineTo(right, position.y, position.z);
+    path1.lineTo(left,  y1);
+    path1.lineTo(right, y1);
     path1.setStrokeWidth(1);
     path1.setStrokeColor(color);
-//    path1.rotate(45, ofVec3f(0, 1, 0));
     path1.draw();
     
     ofPath path2;
-    path2.lineTo(position.x, top,    position.z);
-    path2.lineTo(position.x, bottom, position.z);
+    path2.lineTo(left,  y2);
+    path2.lineTo(right, y2);
     path2.setStrokeWidth(1);
     path2.setStrokeColor(color);
-//    path2.rotate(45, ofVec3f(0, 1, 0));
     path2.draw();
+    
+    ofPath path3;
+    path3.lineTo(x1, top);
+    path3.lineTo(x1, bottom);
+    path3.setStrokeWidth(1);
+    path3.setStrokeColor(color);
+    path3.draw();
+    
+    ofPath path4;
+    path4.lineTo(x2, top);
+    path4.lineTo(x2, bottom);
+    path4.setStrokeWidth(1);
+    path4.setStrokeColor(color);
+    path4.draw();
 }
