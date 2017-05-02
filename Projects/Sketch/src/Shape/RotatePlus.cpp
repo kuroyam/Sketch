@@ -21,24 +21,28 @@ void RotatePlus::setup() {
 }
 
 void RotatePlus::update() {
-    degree++;
-    if (degree > 360) {
-        degree = 0;
-    }
+    float time = ofGetElapsedTimef();
+    float total = 1.0;
+    
+    float t = fmin(ofMap(fmod(time, total + 1.0), 0.0, total, 0.0, 1.0), 1.0);
+    
+    t /= total;
+    degree = -360 * t * (t - 2);
+    degree = fmin(degree, 360);
 }
 
 void RotatePlus::draw() {
-    float x1 = position.x + (radius * cos(ofDegToRad(degree)));
-    float y1 = position.y + (radius * sin(ofDegToRad(degree)));
+    float x1 = position.x + (radius / 2 * cos(ofDegToRad(degree)));
+    float y1 = position.y + (radius / 2 * sin(ofDegToRad(degree)));
     
-    float x2 = position.x + (radius * cos(ofDegToRad(degree + 90)));
-    float y2 = position.y + (radius * sin(ofDegToRad(degree + 90)));
+    float x2 = position.x + (radius / 2 * cos(ofDegToRad(degree + 90)));
+    float y2 = position.y + (radius / 2 * sin(ofDegToRad(degree + 90)));
     
-    float x3 = position.x + (radius * cos(ofDegToRad(degree + 180)));
-    float y3 = position.y + (radius * sin(ofDegToRad(degree + 180)));
+    float x3 = position.x + (radius / 2 * cos(ofDegToRad(degree + 180)));
+    float y3 = position.y + (radius / 2 * sin(ofDegToRad(degree + 180)));
     
-    float x4 = position.x + (radius * cos(ofDegToRad(degree + 270)));
-    float y4 = position.y + (radius * sin(ofDegToRad(degree + 270)));
+    float x4 = position.x + (radius / 2 * cos(ofDegToRad(degree + 270)));
+    float y4 = position.y + (radius / 2 * sin(ofDegToRad(degree + 270)));
     
     ofPath path1;
     path1.lineTo(x1, y1);
