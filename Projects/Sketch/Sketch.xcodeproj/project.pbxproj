@@ -32,6 +32,8 @@
 		494C39A21EB212C8006DAE87 /* Sketch170427.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494C39A01EB212C8006DAE87 /* Sketch170427.cpp */; };
 		499580C21EB74EEF002978AB /* Sketch170501.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499580C01EB74EEF002978AB /* Sketch170501.cpp */; };
 		499580C51EB75044002978AB /* RotatePlus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499580C31EB75044002978AB /* RotatePlus.cpp */; };
+		499580C81EB9EF80002978AB /* RandomTransformCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499580C61EB9EF80002978AB /* RandomTransformCircle.cpp */; };
+		499580CB1EB9F025002978AB /* Sketch170503.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 499580C91EB9F025002978AB /* Sketch170503.cpp */; };
 		49FE181C1E928EF6008C2F68 /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE181A1E928EF6008C2F68 /* TestScene.cpp */; };
 		49FE18251E92941C008C2F68 /* Polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE18231E92941C008C2F68 /* Polygon.cpp */; };
 		49FE182D1E93C275008C2F68 /* Scene170404.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FE182B1E93C275008C2F68 /* Scene170404.cpp */; };
@@ -125,6 +127,10 @@
 		499580C11EB74EEF002978AB /* Sketch170501.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170501.hpp; sourceTree = "<group>"; };
 		499580C31EB75044002978AB /* RotatePlus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotatePlus.cpp; sourceTree = "<group>"; };
 		499580C41EB75044002978AB /* RotatePlus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RotatePlus.hpp; sourceTree = "<group>"; };
+		499580C61EB9EF80002978AB /* RandomTransformCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomTransformCircle.cpp; sourceTree = "<group>"; };
+		499580C71EB9EF80002978AB /* RandomTransformCircle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RandomTransformCircle.hpp; sourceTree = "<group>"; };
+		499580C91EB9F025002978AB /* Sketch170503.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170503.cpp; sourceTree = "<group>"; };
+		499580CA1EB9F025002978AB /* Sketch170503.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170503.hpp; sourceTree = "<group>"; };
 		49FE181A1E928EF6008C2F68 /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestScene.cpp; sourceTree = "<group>"; };
 		49FE181B1E928EF6008C2F68 /* TestScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestScene.hpp; sourceTree = "<group>"; };
 		49FE18231E92941C008C2F68 /* Polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polygon.cpp; sourceTree = "<group>"; };
@@ -215,6 +221,8 @@
 				494C39A01EB212C8006DAE87 /* Sketch170427.cpp */,
 				499580C11EB74EEF002978AB /* Sketch170501.hpp */,
 				499580C01EB74EEF002978AB /* Sketch170501.cpp */,
+				499580CA1EB9F025002978AB /* Sketch170503.hpp */,
+				499580C91EB9F025002978AB /* Sketch170503.cpp */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -230,6 +238,8 @@
 				4940828D1EAC489600634204 /* PlusToSquare.cpp */,
 				49FE18241E92941C008C2F68 /* Polygon.hpp */,
 				49FE18231E92941C008C2F68 /* Polygon.cpp */,
+				499580C71EB9EF80002978AB /* RandomTransformCircle.hpp */,
+				499580C61EB9EF80002978AB /* RandomTransformCircle.cpp */,
 				499580C41EB75044002978AB /* RotatePlus.hpp */,
 				499580C31EB75044002978AB /* RotatePlus.cpp */,
 			);
@@ -417,6 +427,7 @@
 				494082761EA4E5CB00634204 /* Sketch170417.cpp in Sources */,
 				4940828F1EAC489600634204 /* PlusToSquare.cpp in Sources */,
 				4940828C1EAC47BF00634204 /* Sketch170423.cpp in Sources */,
+				499580C81EB9EF80002978AB /* RandomTransformCircle.cpp in Sources */,
 				494082731EA390F500634204 /* Blob.cpp in Sources */,
 				49FE18331E9662C4008C2F68 /* Sketch170406.cpp in Sources */,
 				494082821EA8E5DB00634204 /* Sketch170420.cpp in Sources */,
@@ -431,6 +442,7 @@
 				494C399F1EB0BA3C006DAE87 /* Sketch170426.cpp in Sources */,
 				49FE18361E97B8B1008C2F68 /* Sketch170407.cpp in Sources */,
 				494082581E99C5F600634204 /* Sketch170409.cpp in Sources */,
+				499580CB1EB9F025002978AB /* Sketch170503.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
