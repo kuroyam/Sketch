@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493D51FC1EC4A807004AC80E /* Sketch170511.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 493D51FA1EC4A807004AC80E /* Sketch170511.cpp */; };
 		494082551E9905F600634204 /* Sketch170408.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082531E9905F600634204 /* Sketch170408.cpp */; };
 		494082581E99C5F600634204 /* Sketch170409.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082561E99C5F600634204 /* Sketch170409.cpp */; };
 		4940825B1E9BC7CC00634204 /* Sketch170410.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 494082591E9BC7CC00634204 /* Sketch170410.cpp */; };
@@ -77,6 +78,8 @@
 
 /* Begin PBXFileReference section */
 		24D17BB8F9CD95EB832B7AB0 /* ofxVideoRecorder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxVideoRecorder.cpp; path = ../../../of_v0.9.8_osx_release/addons/ofxVideoRecorder/src/ofxVideoRecorder.cpp; sourceTree = SOURCE_ROOT; };
+		493D51FA1EC4A807004AC80E /* Sketch170511.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170511.cpp; sourceTree = "<group>"; };
+		493D51FB1EC4A807004AC80E /* Sketch170511.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170511.hpp; sourceTree = "<group>"; };
 		494082531E9905F600634204 /* Sketch170408.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170408.cpp; sourceTree = "<group>"; };
 		494082541E9905F600634204 /* Sketch170408.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sketch170408.hpp; sourceTree = "<group>"; };
 		494082561E99C5F600634204 /* Sketch170409.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sketch170409.cpp; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 				499580C01EB74EEF002978AB /* Sketch170501.cpp */,
 				499580CA1EB9F025002978AB /* Sketch170503.hpp */,
 				499580C91EB9F025002978AB /* Sketch170503.cpp */,
+				493D51FB1EC4A807004AC80E /* Sketch170511.hpp */,
+				493D51FA1EC4A807004AC80E /* Sketch170511.cpp */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 				494082641E9F9D1700634204 /* Sketch170413.cpp in Sources */,
 				5B21B509C3EC43CF67641315 /* ofxVideoRecorder.cpp in Sources */,
 				494C399C1EB0B6AF006DAE87 /* Sketch170425.cpp in Sources */,
+				493D51FC1EC4A807004AC80E /* Sketch170511.cpp in Sources */,
 				494082921EAE305500634204 /* Sketch170424.cpp in Sources */,
 				499580C21EB74EEF002978AB /* Sketch170501.cpp in Sources */,
 				494C399F1EB0BA3C006DAE87 /* Sketch170426.cpp in Sources */,
